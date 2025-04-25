@@ -3,12 +3,6 @@ session_start();
 $connection = mysqli_connect("localhost","root","","apdp");
 ?>
 
-<!--
-author: W3layouts
-author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE html>
 <html>
 <head>
@@ -59,37 +53,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- header -->
 
 <!--- pakagedfoods --->
-	
-			<!-- <div class="col-md-8 products-right">
-				<div class="products-right-grid">
-					<div class="products-right-grids">
-						<div class="sorting">
-							<select id="country" onchange="change_country(this.value)" class="frm-field required sect">
-								<option value="null"><i class="fa fa-arrow-right" aria-hidden="true"></i>Default sorting</option>
-								<option value="null"><i class="fa fa-arrow-right" aria-hidden="true"></i>Sort by popularity</option> 
-								<option value="null"><i class="fa fa-arrow-right" aria-hidden="true"></i>Sort by average rating</option>					
-								<option value="null"><i class="fa fa-arrow-right" aria-hidden="true"></i>Sort by price</option>								
-							</select>
-						</div>
-						<div class="sorting-left">
-							<select id="country1" onchange="change_country(this.value)" class="frm-field required sect">
-								<option value="null"><i class="fa fa-arrow-right" aria-hidden="true"></i>Item on page 9</option>
-								<option value="null"><i class="fa fa-arrow-right" aria-hidden="true"></i>Item on page 18</option> 
-								<option value="null"><i class="fa fa-arrow-right" aria-hidden="true"></i>Item on page 32</option>					
-								<option value="null"><i class="fa fa-arrow-right" aria-hidden="true"></i>All</option>								
-							</select>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-				</div> -->
-
-
-
-
-
-				<div class="agile_top_brands_grids">
-
-
+	<div class="agile_top_brands_grids">
 		<h1>Products</h1>
 
                 <!-- product start -->
